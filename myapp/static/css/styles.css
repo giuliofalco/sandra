@@ -120,8 +120,13 @@ footer p {
 }
 
 .intro-text {
+    color: #0d47a1; /* Blu scuro */
     font-size: 1.2em;
     margin: 5px 0;
+}
+
+.intro-text strong {
+    color: #000; /* Nero per il testo in grassetto */
 }
 
 @media (max-width: 600px) {
