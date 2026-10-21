@@ -102,3 +102,38 @@ footer p {
         margin: 0.5rem 0;
     }
 }
+
+/* Nuovi stili per il testo introduttivo */
+.intro-box {
+    background-color: #e0f7fa; /* Azzurro chiaro */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-title {
+    color: #0d47a1; /* Blu scuro */
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+    .intro-box {
+        padding: 10px;
+    }
+
+    .intro-title {
+        font-size: 1.5em;
+    }
+
+    .intro-text {
+        font-size: 1em;
+    }
+}
