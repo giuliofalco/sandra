@@ -234,6 +234,238 @@
     "it": "Chiudi la finestra",
     "de": "Fenster schließen",
     "en": "Close dialog"
+},
+
+"management_title": {
+    "it": "Gestione degli immobili per vacanze",
+    "de": "Verwaltung von Ferienimmobilien",
+    "en": "Holiday Rental Property Management"
+},
+"management_subtitle": {
+    "it": "Gestione online e assistenza sul posto in Italia",
+    "de": "Online und vor Ort in Italien",
+    "en": "Online management and on-site support in Italy"
+},
+"management_intro": {
+    "it": "Un servizio organizzato per aiutarti a valorizzare la tua casa vacanze, gestire le prenotazioni e coordinare le attività necessarie per offrire agli ospiti un soggiorno piacevole.",
+    "de": "Ein organisierter Service, um deine Ferienimmobilie optimal zu präsentieren, Buchungen zu verwalten und die notwendigen Abläufe für einen angenehmen Aufenthalt deiner Gäste zu koordinieren.",
+    "en": "An organized service to help you present your holiday property, manage bookings and coordinate the activities needed to provide guests with a pleasant stay."
+},
+"online_title": {
+    "it": "Pacchetto Online",
+    "de": "Paket Online",
+    "en": "Online Package"
+},
+"online_rate": {
+    "it": "15%",
+    "de": "15 %",
+    "en": "15%"
+},
+"online_basis": {
+    "it": "Sul ricavo netto delle prenotazioni tramite le agenzie di viaggio online (base di calcolo da confermare)",
+    "de": "Auf den Nettobetrag der Buchungen über Online-Reiseagenturen (Berechnungsgrundlage noch zu bestätigen)",
+    "en": "On net revenue from bookings through online travel agencies (calculation basis to be confirmed)"
+},
+"online_service_1": {
+    "it": "Servizio fotografico dell'immobile",
+    "de": "Fotoshooting der Ferienimmobilie",
+    "en": "Property photography"
+},
+"online_service_2": {
+    "it": "Creazione e pubblicazione degli annunci",
+    "de": "Erstellung und Veröffentlichung der Inserate",
+    "en": "Listing creation and publication"
+},
+"online_service_3": {
+    "it": "Gestione dei prezzi e pianificazione e controllo del budget",
+    "de": "Preismanagement sowie Budgetplanung und -kontrolle",
+    "en": "Pricing management, budget planning and monitoring"
+},
+"online_service_4": {
+    "it": "Report mensili",
+    "de": "Monatliche Berichte",
+    "en": "Monthly reporting"
+},
+"online_service_5": {
+    "it": "Comunicazione con gli ospiti e registrazione presso le autorità locali",
+    "de": "Kommunikation mit den Feriengästen und Registrierung bei den örtlichen Behörden",
+    "en": "Guest communication and registration with the local authorities"
+},
+"online_service_6": {
+    "it": "Coordinamento delle pulizie e della manutenzione",
+    "de": "Koordination der Reinigung sowie der Instandhaltung und Wartung",
+    "en": "Coordination of cleaning and maintenance"
+},
+"online_service_7": {
+    "it": "Gestione dei problemi e coordinamento dei fornitori esterni",
+    "de": "Mängelmanagement und Koordination externer Dienstleister",
+    "en": "Issue management and coordination of external service providers"
+},
+"online_service_8": {
+    "it": "Gestione della tassa di soggiorno e accoglienza online con check-in in videochiamata",
+    "de": "Verwaltung der Kurtaxe sowie Online-Begrüßung und Check-in per Videoanruf",
+    "en": "Tourist tax administration and online welcome and check-in by video call"
+},
+"onsite_title": {
+    "it": "Pacchetto Online & Onsite",
+    "de": "Paket Online & Onsite",
+    "en": "Online & Onsite Package"
+},
+"onsite_rate": {
+    "it": "20%",
+    "de": "20 %",
+    "en": "20%"
+},
+"onsite_basis": {
+    "it": "Sul ricavo netto delle prenotazioni tramite le agenzie di viaggio online (base di calcolo da confermare)",
+    "de": "Auf den Nettobetrag der Buchungen über Online-Reiseagenturen (Berechnungsgrundlage noch zu bestätigen)",
+    "en": "On net revenue from bookings through online travel agencies (calculation basis to be confirmed)"
+},
+"onsite_intro": {
+    "it": "Comprende i servizi del pacchetto Online, con in più l'assistenza in presenza.",
+    "de": "Enthält alle Leistungen des Online-Pakets sowie zusätzliche Unterstützung vor Ort.",
+    "en": "Includes all Online Package services, with additional on-site assistance."
+},
+"onsite_service_1": {
+    "it": "Accoglienza e check-in di persona, dalle 15:00 alle 20:00",
+    "de": "Persönlicher Empfang und Check-in vor Ort zwischen 15 und 20 Uhr",
+    "en": "In-person welcome and check-in between 3 pm and 8 pm"
+},
+"onsite_service_2": {
+    "it": "Intervento sul posto per la risoluzione di problemi",
+    "de": "Behebung von Problemen vor Ort",
+    "en": "On-site assistance to resolve problems"
+},
+"management_note": {
+    "it": "Le attività, le eventuali spese aggiuntive e la base di calcolo della commissione devono essere concordate prima dell'incarico.",
+    "de": "Leistungsumfang, mögliche Zusatzkosten und Berechnungsgrundlage der Provision sind vor Beginn des Auftrags zu vereinbaren.",
+    "en": "The scope of services, any additional costs and the commission calculation basis should be agreed before the service begins."
+},
+"management_contact_title": {
+    "it": "Parliamo della tua casa vacanze",
+    "de": "Lass uns über deine Ferienimmobilie sprechen",
+    "en": "Let's talk about your holiday property"
+},
+"management_phone_label": {
+    "it": "Telefono",
+    "de": "Mobil",
+    "en": "Phone"
+},
+"management_back": {
+    "it": "Torna alla pagina principale",
+    "de": "Zurück zur Startseite",
+    "en": "Back to the homepage"
+},
+
+"management_button": {
+    "it": "Scopri i servizi di gestione",
+    "de": "Mehr über die Verwaltungsleistungen",
+    "en": "Discover management services"
+},
+
+
+"consulting_title": {
+    "it": "Consulenza per case vacanze in Italia",
+    "de": "Beratung für Ferienimmobilien in Italien",
+    "en": "Holiday Rental Consultancy in Italy"
+},
+"consulting_subtitle": {
+    "it": "Supporto per le pratiche amministrative e burocratiche",
+    "de": "Unterstützung bei administrativen und bürokratischen Verfahren",
+    "en": "Support with administrative and bureaucratic procedures"
+},
+"consulting_intro": {
+    "it": "Affittare una casa vacanze in Italia comporta diversi obblighi amministrativi. Sandra ti supporta nelle procedure per i codici identificativi e nell'ottenimento delle credenziali necessarie per gli adempimenti previsti.",
+    "de": "Die Vermietung einer Ferienimmobilie in Italien bringt verschiedene administrative Pflichten mit sich. Sandra unterstützt dich bei den Verfahren für die Identifikationscodes und bei der Beschaffung der erforderlichen Zugangsdaten.",
+    "en": "Renting out a holiday property in Italy involves various administrative requirements. Sandra supports you with identification-code procedures and obtaining the access credentials needed for the relevant obligations."
+},
+"circin_title": {
+    "it": "Pacchetto CIR/CIN",
+    "de": "CIR/CIN-Paket",
+    "en": "CIR/CIN Package"
+},
+"circin_price": {
+    "it": "350 €",
+    "de": "350 €",
+    "en": "€350"
+},
+"circin_intro": {
+    "it": "Supporto per la procedura di richiesta dei codici identificativi regionali e nazionali per gli immobili destinati agli affitti turistici.",
+    "de": "Unterstützung beim Antragsverfahren für die regionalen und nationalen Identifikationscodes für Ferienimmobilien.",
+    "en": "Support with the application process for regional and national identification codes for holiday rental properties."
+},
+"circin_service_1": {
+    "it": "Informazioni sulla procedura per ottenere il codice CIR regionale",
+    "de": "Informationen zum Verfahren für den regionalen CIR-Code",
+    "en": "Guidance on the procedure for obtaining the regional CIR code"
+},
+"circin_service_2": {
+    "it": "Supporto per la procedura relativa al codice CIN nazionale",
+    "de": "Unterstützung beim Verfahren für den nationalen CIN-Code",
+    "en": "Support with the procedure for the national CIN code"
+},
+"circin_service_3": {
+    "it": "Assistenza nella preparazione dei passaggi necessari per presentare le richieste",
+    "de": "Unterstützung bei der Vorbereitung der erforderlichen Antragsschritte",
+    "en": "Assistance in preparing the steps required to submit the applications"
+},
+"customer_title": {
+    "it": "Pacchetto CUSTOMER",
+    "de": "CUSTOMER-Paket",
+    "en": "CUSTOMER Package"
+},
+"customer_price": {
+    "it": "80 €",
+    "de": "80 €",
+    "en": "€80"
+},
+"customer_intro": {
+    "it": "Supporto per ottenere le credenziali di accesso ai sistemi necessari per gli adempimenti relativi agli ospiti e alla tassa di soggiorno.",
+    "de": "Unterstützung bei der Beschaffung der Zugangsdaten für die Systeme zur Gästemeldung und Kurtaxenverwaltung.",
+    "en": "Support with obtaining access credentials for the systems used for guest registration and tourist tax administration."
+},
+"customer_service_1": {
+    "it": "Supporto per l'ottenimento delle credenziali di accesso",
+    "de": "Unterstützung bei der Beschaffung der Zugangsdaten",
+    "en": "Assistance with obtaining access credentials"
+},
+"customer_service_2": {
+    "it": "Informazioni sul sistema Alloggiati Web per la comunicazione degli ospiti",
+    "de": "Informationen zum Portal Alloggiati Web für die Gästemeldung",
+    "en": "Guidance on the Alloggiati Web portal for guest registration"
+},
+"customer_service_3": {
+    "it": "Indicazioni sul sistema comunale per la gestione della tassa di soggiorno",
+    "de": "Informationen zum kommunalen System für die Kurtaxenverwaltung",
+    "en": "Guidance on the municipal system for tourist tax administration"
+},
+"consulting_note": {
+    "it": "I prezzi indicati sono quelli comunicati da Sandra. Tempi, requisiti e procedure dipendono dalle autorità competenti. Le attività comprese in ciascun pacchetto vanno confermate direttamente con Sandra.",
+    "de": "Die angegebenen Preise entsprechen den von Sandra mitgeteilten Preisen. Fristen, Voraussetzungen und Verfahren hängen von den zuständigen Behörden ab. Der genaue Leistungsumfang sollte direkt mit Sandra bestätigt werden.",
+    "en": "The prices shown are those provided by Sandra. Timelines, requirements and procedures depend on the relevant authorities. The exact scope of each package should be confirmed directly with Sandra."
+},
+"consulting_contact_title": {
+    "it": "Hai bisogno di assistenza?",
+    "de": "Du benötigst Unterstützung?",
+    "en": "Need assistance?"
+},
+"consulting_phone_label": {
+    "it": "Telefono",
+    "de": "Mobil",
+    "en": "Phone"
+},
+"consulting_back": {
+    "it": "Torna alla pagina principale",
+    "de": "Zurück zur Startseite",
+    "en": "Back to the homepage"
+},
+
+"consulting_button": {
+    "it": "Scopri i servizi di consulenza",
+    "de": "Beratungsleistungen entdecken",
+    "en": "Discover consulting services"
 }
+
+
 
 }

@@ -661,3 +661,127 @@ section img {
         font-size: 1.4rem;
     }
 }
+
+/* Pagina di gestione degli immobili */
+.management-page {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.management-page > .content-section {
+    margin-bottom: 2.5rem;
+}
+
+.management-page .management-packages {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.75rem;
+    align-items: stretch;
+    margin-top: 1.5rem;
+}
+
+.management-package {
+    padding: 2rem;
+    background: #ffffff;
+    border: 1px solid #dce5eb;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(23, 59, 94, 0.07);
+}
+
+.management-package h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #173b5e;
+    font-size: 1.45rem;
+    line-height: 1.35;
+}
+
+.management-package .package-rate {
+    margin: 0.5rem 0 0.25rem;
+    color: #285f86;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.management-package .package-rate-note {
+    margin: 0 0 1.5rem;
+    color: #526879;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.management-package > p:not(.package-rate):not(.package-rate-note) {
+    color: #304b60;
+    line-height: 1.75;
+}
+
+.management-package .service-list {
+    margin: 1.25rem 0 0;
+    padding-left: 1.3rem;
+    color: #304b60;
+    line-height: 1.75;
+    text-align: left;
+}
+
+.management-package .service-list li {
+    margin-bottom: 0.8rem;
+    padding-left: 0.25rem;
+}
+
+.management-package .service-list li:last-child {
+    margin-bottom: 0;
+}
+
+.management-note {
+    margin: 1.5rem auto 0;
+    max-width: 850px;
+    color: #526879;
+    font-size: 0.92rem;
+    line-height: 1.75;
+    text-align: center;
+}
+
+.management-page .management-back {
+    margin: 2.5rem 0;
+    text-align: center;
+}
+
+.management-back-link {
+    display: inline-block;
+    padding: 0.85rem 1.5rem;
+    border-radius: 6px;
+    background: #173b5e;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+.management-back-link:hover {
+    background: #285f86;
+}
+
+.management-back-link:focus-visible {
+    outline: 3px solid #70a9d0;
+    outline-offset: 3px;
+}
+
+@media (max-width: 760px) {
+    .management-page .management-packages {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+
+    .management-package {
+        padding: 1.5rem;
+    }
+
+    .management-package h2 {
+        font-size: 1.3rem;
+    }
+
+    .management-package .package-rate {
+        font-size: 2.3rem;
+    }
+}

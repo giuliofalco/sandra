@@ -85,6 +85,12 @@
                     <p>{{ section_consulenza_text_2 }}</p>
                 </div>
             </div>
+            <br>
+            <div class="section-more">
+                   <a href="{% url 'consulenza' %}?lang={{ lang }}" class="management-back-link">
+                  {{ consulting_button }}
+                  </a>
+                </div>
         </section>
 
         <section id="gestione" class="content-section">
@@ -101,6 +107,13 @@
                     <li>{{ section_gestione_list_5 }}</li>
                     <li>{{ section_gestione_list_6 }}</li>
                 </ul>
+
+                <div class="section-more">
+                   <a href="{% url 'gestione' %}?lang={{ lang }}" class="management-back-link">
+                  {{ management_button }}
+                  </a>
+                </div>
+
             </div>
         </section>
 

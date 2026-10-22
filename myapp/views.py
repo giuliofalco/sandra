@@ -8,9 +8,7 @@ from django.shortcuts import render
 LINGUE_SUPPORTATE = ("it", "de", "en")
 
 
-def home(request):
-    lang = request.GET.get("lang", "it")
-
+def carica_traduzioni(lang):
     if lang not in LINGUE_SUPPORTATE:
         lang = "it"
 
@@ -24,5 +22,24 @@ def home(request):
     for chiave, lingue in traduzioni.items():
         context[chiave] = lingue[lang]
 
+    return context
+
+
+def home(request):
+    lang = request.GET.get("lang", "it")
+    context = carica_traduzioni(lang)
+
     return render(request, "myapp/index.html", context)
 
+
+def gestione(request):
+    lang = request.GET.get("lang", "it")
+    context = carica_traduzioni(lang)
+
+    return render(request, "myapp/gestione.html", context)
+
+
+def consulenza(request):
+    lang = request.GET.get("lang", "it")
+    context = carica_traduzioni(lang)
+    return render(request, "myapp/consulenza.html", context)

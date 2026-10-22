@@ -1,0 +1,135 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ management_title }}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <script src="{% static 'js/scripts.js' %}" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="language-selector" aria-label="Seleziona la lingua">
+        <a href="?lang=it" lang="it"
+           class="{% if lang == 'it' %}active{% endif %}"
+           {% if lang == 'it' %}aria-current="page"{% endif %}>🇮🇹</a>
+        <a href="?lang=de" lang="de"
+           class="{% if lang == 'de' %}active{% endif %}"
+           {% if lang == 'de' %}aria-current="page"{% endif %}>🇩🇪</a>
+        <a href="?lang=en" lang="en"
+           class="{% if lang == 'en' %}active{% endif %}"
+           {% if lang == 'en' %}aria-current="page"{% endif %}>🇬🇧</a>
+    </div>
+
+    <div class="header-content">
+        <h1>{{ header_title }}</h1>
+        <p class="intro-text">{{ management_subtitle }}</p>
+    </div>
+</header>
+
+<main class="site-main management-page">
+
+    <section class="content-section">
+        <h2>{{ management_title }}</h2>
+        <div class="service-text">
+            <p>{{ management_intro }}</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="management-packages">
+
+            <article class="management-package">
+                <h2>{{ online_title }}</h2>
+                <p class="package-rate">{{ online_rate }}</p>
+                <p class="package-rate-note">{{ online_basis }}</p>
+
+                <ul class="service-list">
+                    <li>{{ online_service_1 }}</li>
+                    <li>{{ online_service_2 }}</li>
+                    <li>{{ online_service_3 }}</li>
+                    <li>{{ online_service_4 }}</li>
+                    <li>{{ online_service_5 }}</li>
+                    <li>{{ online_service_6 }}</li>
+                    <li>{{ online_service_7 }}</li>
+                    <li>{{ online_service_8 }}</li>
+                </ul>
+            </article>
+
+            <article class="management-package">
+                <h2>{{ onsite_title }}</h2>
+                <p class="package-rate">{{ onsite_rate }}</p>
+                <p class="package-rate-note">{{ onsite_basis }}</p>
+                <p>{{ onsite_intro }}</p>
+
+                <ul class="service-list">
+                    <li>{{ onsite_service_1 }}</li>
+                    <li>{{ onsite_service_2 }}</li>
+                </ul>
+            </article>
+
+        </div>
+
+        <p class="management-note">{{ management_note }}</p>
+    </section>
+
+    <section class="content-section contact-section">
+        <h2>{{ management_contact_title }}</h2>
+        <p><strong>Sandra Schneider</strong></p>
+        <p>COMOLAKE4U</p>
+        <p>Email: <a href="mailto:info@sandraschneider.it">info@sandraschneider.it</a></p>
+        <p>{{ management_phone_label }}:
+            <a href="tel:+393755126840">+39 375 5126840</a>
+        </p>
+    </section>
+
+    <p class="management-back">
+        <a href="{% url 'home' %}?lang={{ lang }}"
+           class="management-back-link">
+            {{ management_back }}
+        </a>
+    </p>
+
+</main>
+
+<footer class="site-footer">
+    <p>{{ footer_text }}</p>
+    <p>
+        <a href="#privacy-modal" id="privacy-link">{{ legal_info }}</a>
+    </p>
+</footer>
+
+<div id="privacy-modal"
+     class="privacy-modal"
+     role="dialog"
+     aria-modal="true"
+     aria-labelledby="privacy-title"
+     aria-hidden="true">
+
+    <div class="privacy-modal-content">
+        <button type="button"
+                class="privacy-close"
+                id="privacy-close"
+                aria-label="{{ privacy_close_label }}">
+            &times;
+        </button>
+
+        <h2 id="privacy-title">{{ privacy_title }}</h2>
+        <p>{{ privacy_text_1 }}</p>
+        <p>{{ privacy_text_2 }}</p>
+        <p>{{ privacy_text_3 }}</p>
+        <p>{{ privacy_text_4 }}</p>
+
+        <button type="button"
+                class="privacy-close-button"
+                id="privacy-close-button">
+            {{ privacy_close }}
+        </button>
+    </div>
+</div>
+
+</body>
+</html>
