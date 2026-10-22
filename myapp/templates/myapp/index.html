@@ -1,69 +1,85 @@
+
 <!DOCTYPE html>
-<html lang="it">
+<html lang="{{ lang }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-    <style>
-        .language-selector {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-        }
-        .language-selector a {
-            text-decoration: none;
-            margin: 0 5px;
-            color: black;
-        }
-        .language-selector a.active {
-            font-weight: bold;
-        }
-    </style>
 </head>
 <body>
-    <div class="language-selector">
-        <a href="?lang=it" class="{% if lang == 'it' %}active{% endif %}">🇮🇹</a>
-        <a href="?lang=de" class="{% if lang == 'de' %}active{% endif %}">🇩🇪</a>
-        <a href="?lang=en" class="{% if lang == 'en' %}active{% endif %}">🇬🇧</a>
-    </div>
-    <header>
-        <h1>{{ header_title }}</h1>
-        <div class="intro-box">
-            <h2 class="intro-title">{{ intro_title }}</h2>
-            <p class="intro-text">{{ intro_text_1 }}</p>
-            <p class="intro-text">{{ intro_text_2 }}</p>
-            <p class="intro-text">{{ intro_text_3 }}</p>
-            <p class="intro-text">{{ intro_text_4 }}</p>
-            <p class="intro-text">{{ intro_text_5 }}</p>
+    <header class="site-header">
+        <div class="language-selector" aria-label="Seleziona la lingua">
+            <a href="?lang=it" lang="it"
+               class="{% if lang == 'it' %}active{% endif %}"
+               aria-label="Italiano"
+               {% if lang == 'it' %}aria-current="page"{% endif %}>🇮🇹</a>
+            <a href="?lang=de" lang="de"
+               class="{% if lang == 'de' %}active{% endif %}"
+               aria-label="Deutsch"
+               {% if lang == 'de' %}aria-current="page"{% endif %}>🇩🇪</a>
+            <a href="?lang=en" lang="en"
+               class="{% if lang == 'en' %}active{% endif %}"
+               aria-label="English"
+               {% if lang == 'en' %}aria-current="page"{% endif %}>🇬🇧</a>
         </div>
-        <img src="{% static 'images/header.jpg' %}" alt="{{ header_image_alt }}" class="header-image">
+
+        <div class="header-content">
+            <h1>{{ header_title }}</h1>
+
+            <div class="intro-box">
+                <h2 class="intro-title">{{ intro_title }}</h2>
+                <p class="intro-text">{{ intro_text_1 }}</p>
+                <p class="intro-text">{{ intro_text_2 }}</p>
+                <p class="intro-text">{{ intro_text_3 }}</p>
+                <p class="intro-text">{{ intro_text_4 }}</p>
+                <p class="intro-text">{{ intro_text_5 }}</p>
+            </div>
+
+            <nav class="main-navigation" aria-label="Navigazione principale">
+                <ul>
+                    <li><a href="#presentazione">{{ nav_presentazione }}</a></li>
+                    <li><a href="#consulenza">{{ nav_consulenza }}</a></li>
+                    <li><a href="#gestione">{{ nav_gestione }}</a></li>
+                    <li><a href="#consulenza-proprietari">{{ nav_consulenza_proprietari }}</a></li>
+                    <li><a href="#contatti">{{ nav_contatti }}</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <img src="{% static 'images/header.jpg' %}"
+             alt="{{ header_image_alt }}"
+             class="header-image">
     </header>
-    <main>
-        <nav>
-            <ul>
-                <li><a href="#presentazione">{{ nav_presentazione }}</a></li>
-                <li><a href="#consulenza">{{ nav_consulenza }}</a></li>
-                <li><a href="#gestione">{{ nav_gestione }}</a></li>
-                <li><a href="#consulenza-proprietari">{{ nav_consulenza_proprietari }}</a></li>
-                <li><a href="#contatti">{{ nav_contatti }}</a></li>
-            </ul>
-        </nav>
-        <section id="presentazione">
+
+    <main class="site-main">
+        <section id="presentazione" class="presentation-section">
             <h2>{{ section_presentazione }}</h2>
-            <img src="{% static 'images/sandra-2.jpg' %}" alt="{{ profile_image_alt }}" class="profile-image">
-            <p>{{ section_presentazione_text }}</p>
+            <div class="presentation-content">
+                <img src="{% static 'images/sandra-2.jpg' %}"
+                     alt="{{ profile_image_alt }}"
+                     class="profile-image">
+                <div class="presentation-text">
+                    <p>{{ section_presentazione_text }}</p>
+                </div>
+            </div>
         </section>
-        <section id="consulenza">
+
+        <section id="consulenza" class="content-section">
             <h2>{{ section_consulenza }}</h2>
-            <img src="{% static 'images/casa-vacanze.jpg' %}" alt="{{ property_image_alt }}" class="property-image">
+            <img src="{% static 'images/casa-vacanze.jpg' %}"
+                 alt="{{ property_image_alt }}"
+                 class="property-image">
             <p>{{ section_consulenza_text }}</p>
         </section>
-        <section id="gestione">
+
+        <section id="gestione" class="content-section">
             <h2>{{ section_gestione }}</h2>
-            <img src="{% static 'images/interni.jpg' %}" alt="{{ property_image_alt }}" class="property-image">
-            <ul>
+            <img src="{% static 'images/interni.jpg' %}"
+                 alt="{{ property_image_alt }}"
+                 class="property-image">
+            <ul class="service-list">
                 <li>{{ section_gestione_list_1 }}</li>
                 <li>{{ section_gestione_list_2 }}</li>
                 <li>{{ section_gestione_list_3 }}</li>
@@ -72,21 +88,28 @@
                 <li>{{ section_gestione_list_6 }}</li>
             </ul>
         </section>
-        <section id="consulenza-proprietari">
+
+        <section id="consulenza-proprietari" class="content-section">
             <h2>{{ section_consulenza_proprietari }}</h2>
-            <img src="{% static 'images/sandra-6.jpg' %}" alt="{{ profile_image_alt }}" class="profile-image">
+            <img src="{% static 'images/sandra-6.jpg' %}"
+                 alt="{{ profile_image_alt }}"
+                 class="profile-image">
             <p>{{ section_consulenza_proprietari_text }}</p>
         </section>
-        <section id="contatti">
+
+        <section id="contatti" class="content-section contact-section">
             <h2>{{ section_contatti }}</h2>
             <p>Email: <a href="mailto:sandra.schneider@example.com">{{ email }}</a></p>
             <p>Telefono: <a href="tel:+39123456789">{{ phone }}</a></p>
             <p>Informazioni legali: <a href="/legal">{{ legal_info }}</a></p>
         </section>
     </main>
-    <footer>
+
+    <footer class="site-footer">
         <p>{{ footer_text }}</p>
     </footer>
+
     <script src="{% static 'js/scripts.js' %}"></script>
 </body>
 </html>
+
