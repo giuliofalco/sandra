@@ -1,4 +1,3 @@
-
 {
   "title": {
     "it": "Sandra Schneider - Consulenza e Gestione Immobili per Vacanze in Italia",
@@ -10,38 +9,36 @@
     "de": "Sandra Schneider",
     "en": "Sandra Schneider"
   },
- 
-"intro_title": {
-  "it": "Affittare la tua casa in Italia, con il giusto supporto",
-  "de": "Dein Ferienhaus in Italien vermieten – mit der richtigen Unterstützung",
-  "en": "Renting out your holiday home in Italy, with the right support"
-},
-"intro_text_1": {
-  "it": "Consulenza e assistenza pratica per affittare la tua casa vacanze in Italia.",
-  "de": "Beratung und praktische Unterstützung bei der Vermietung deiner Ferienimmobilie in Italien.",
-  "en": "Advice and practical assistance to help you rent out your holiday property in Italy."
-},
-"intro_text_2": {
-  "it": "Ti aiuto a comprendere gli obblighi normativi, i documenti necessari e i requisiti da rispettare.",
-  "de": "Ich helfe dir, die geltenden Vorschriften, die erforderlichen Unterlagen und die einzuhaltenden Anforderungen zu verstehen.",
-  "en": "I help you understand the applicable regulations, required documents and relevant requirements."
-},
-"intro_text_3": {
-  "it": "Dalla richiesta dei codici CIR e CIN alle procedure burocratiche e alla registrazione degli ospiti: ti accompagno passo dopo passo.",
-  "de": "Von der Beantragung der Codes CIR und CIN über bürokratische Verfahren bis zur Gästeregistrierung: Ich begleite dich Schritt für Schritt.",
-  "en": "From applying for the CIR and CIN codes to administrative procedures and guest registration, I guide you step by step."
-},
-"intro_text_4": {
-  "it": "Consulenza in tutta Italia.",
-  "de": "Beratung in ganz Italien.",
-  "en": "Consultancy throughout Italy."
-},
-"intro_text_5": {
-  "it": "Sul Lago di Como offro anche servizi di gestione operativa e assistenza direttamente sul posto.",
-  "de": "Am Comer See biete ich außerdem operative Verwaltungsleistungen und Unterstützung direkt vor Ort an.",
-  "en": "Around Lake Como, I also offer operational property management and on-site assistance."
-},
-
+  "intro_title": {
+    "it": "Affittare la tua casa in Italia, con il giusto supporto",
+    "de": "Dein Ferienhaus in Italien vermieten – mit der richtigen Unterstützung",
+    "en": "Renting out your holiday home in Italy, with the right support"
+  },
+  "intro_text_1": {
+    "it": "Consulenza e assistenza pratica per affittare la tua casa vacanze in Italia.",
+    "de": "Beratung und praktische Unterstützung bei der Vermietung deiner Ferienimmobilie in Italien.",
+    "en": "Advice and practical assistance to help you rent out your holiday property in Italy."
+  },
+  "intro_text_2": {
+    "it": "Ti aiuto a comprendere gli obblighi normativi, i documenti necessari e i requisiti da rispettare.",
+    "de": "Ich helfe dir, die geltenden Vorschriften, die erforderlichen Unterlagen und die einzuhaltenden Anforderungen zu verstehen.",
+    "en": "I help you understand the applicable regulations, required documents and relevant requirements."
+  },
+  "intro_text_3": {
+    "it": "Dalla richiesta dei codici CIR e CIN alle procedure burocratiche e alla registrazione degli ospiti: ti accompagno passo dopo passo.",
+    "de": "Von der Beantragung der Codes CIR und CIN über bürokratische Verfahren bis zur Gästeregistrierung: Ich begleite dich Schritt für Schritt.",
+    "en": "From applying for the CIR and CIN codes to administrative procedures and guest registration, I guide you step by step."
+  },
+  "intro_text_4": {
+    "it": "Consulenza in tutta Italia.",
+    "de": "Beratung in ganz Italien.",
+    "en": "Consultancy throughout Italy."
+  },
+  "intro_text_5": {
+    "it": "Sul Lago di Como offro anche servizi di gestione operativa e assistenza direttamente sul posto.",
+    "de": "Am Comer See biete ich außerdem operative Verwaltungsleistungen und Unterstützung direkt vor Ort an.",
+    "en": "Around Lake Como, I also offer operational property management and on-site assistance."
+  },
   "header_image_alt": {
     "it": "Intestazione del sito di Sandra Schneider",
     "de": "Header des Sandra Schneider-Sites",
@@ -82,33 +79,31 @@
     "de": "Sandra Schneider",
     "en": "Sandra Schneider"
   },
- 
-"section_presentazione_text_1": {
-  "it": "Sono Sandra Schneider, consulente per le case vacanze in Italia.",
-  "de": "Ich bin Sandra Schneider und berate rund um Ferienimmobilien in Italien.",
-  "en": "I'm Sandra Schneider, a consultant specialising in holiday rentals in Italy."
-},
-"section_presentazione_text_2": {
-  "it": "Aiuto i proprietari, in particolare quelli di lingua tedesca, a comprendere le normative italiane e ad affrontare con maggiore serenità gli aspetti burocratici legati all'affitto turistico.",
-  "de": "Ich helfe Eigentümern, insbesondere deutschsprachigen, die italienischen Vorschriften zu verstehen und die bürokratischen Anforderungen bei der touristischen Vermietung sicherer zu bewältigen.",
-  "en": "I help property owners, especially German-speaking owners, understand Italian regulations and navigate the administrative requirements of holiday rentals with greater confidence."
-},
-"section_presentazione_text_3": {
-  "it": "Ti accompagno nelle diverse fasi dell'attività: dalla documentazione necessaria e dalle procedure per ottenere i codici identificativi CIR e CIN, fino agli adempimenti previsti per la gestione degli ospiti.",
-  "de": "Ich begleite dich durch die verschiedenen Schritte: von den erforderlichen Unterlagen und der Beantragung der Identifikationscodes CIR und CIN bis zu den Pflichten rund um die Gästeregistrierung.",
-  "en": "I guide you through the different stages, from the required documentation and applications for the CIR and CIN identification codes to the obligations involved in guest registration."
-},
-"section_presentazione_text_4": {
-  "it": "Offro consulenza e assistenza burocratica in tutta Italia. Per le proprietà sul Lago di Como, metto inoltre a disposizione servizi di gestione operativa e supporto direttamente sul posto.",
-  "de": "Ich biete Beratung und Unterstützung bei bürokratischen Angelegenheiten in ganz Italien an. Für Ferienimmobilien am Comer See stehen zusätzlich operative Verwaltungsleistungen und Unterstützung vor Ort zur Verfügung.",
-  "en": "I offer consultancy and administrative assistance throughout Italy. For properties around Lake Como, I also provide operational management services and on-site support."
-},
-"section_presentazione_text_5": {
-  "it": "Il mio obiettivo è aiutarti a gestire la tua casa vacanze con maggiore chiarezza, organizzazione e tranquillità.",
-  "de": "Mein Ziel ist es, dir dabei zu helfen, deine Ferienimmobilie mit mehr Klarheit, Organisation und Sicherheit zu vermieten.",
-  "en": "My aim is to help you manage your holiday property with greater clarity, organisation and peace of mind."
-},
-
+  "section_presentazione_text_1": {
+    "it": "Sono Sandra Schneider, consulente per le case vacanze in Italia.",
+    "de": "Ich bin Sandra Schneider und berate rund um Ferienimmobilien in Italien.",
+    "en": "I'm Sandra Schneider, a consultant specialising in holiday rentals in Italy."
+  },
+  "section_presentazione_text_2": {
+    "it": "Aiuto i proprietari, in particolare quelli di lingua tedesca, a comprendere le normative italiane e ad affrontare con maggiore serenità gli aspetti burocratici legati all'affitto turistico.",
+    "de": "Ich helfe Eigentümern, insbesondere deutschsprachigen, die italienischen Vorschriften zu verstehen und die bürokratischen Anforderungen bei der touristischen Vermietung sicherer zu bewältigen.",
+    "en": "I help property owners, especially German-speaking owners, understand Italian regulations and navigate the administrative requirements of holiday rentals with greater confidence."
+  },
+  "section_presentazione_text_3": {
+    "it": "Ti accompagno nelle diverse fasi dell'attività: dalla documentazione necessaria e dalle procedure per ottenere i codici identificativi CIR e CIN, fino agli adempimenti previsti per la gestione degli ospiti.",
+    "de": "Ich begleite dich durch die verschiedenen Schritte: von den erforderlichen Unterlagen und der Beantragung der Identifikationscodes CIR und CIN bis zu den Pflichten rund um die Gästeregistrierung.",
+    "en": "I guide you through the different stages, from the required documentation and applications for the CIR and CIN identification codes to the obligations involved in guest registration."
+  },
+  "section_presentazione_text_4": {
+    "it": "Offro consulenza e assistenza burocratica in tutta Italia. Per le proprietà sul Lago di Como, metto inoltre a disposizione servizi di gestione operativa e supporto direttamente sul posto.",
+    "de": "Ich biete Beratung und Unterstützung bei bürokratischen Angelegenheiten in ganz Italien an. Für Ferienimmobilien am Comer See stehen zusätzlich operative Verwaltungsleistungen und Unterstützung vor Ort zur Verfügung.",
+    "en": "I offer consultancy and administrative assistance throughout Italy. For properties around Lake Como, I also provide operational management services and on-site support."
+  },
+  "section_presentazione_text_5": {
+    "it": "Il mio obiettivo è aiutarti a gestire la tua casa vacanze con maggiore chiarezza, organizzazione e tranquillità.",
+    "de": "Mein Ziel ist es, dir dabei zu helfen, deine Ferienimmobilie mit mehr Klarheit, Organisation und Sicherheit zu vermieten.",
+    "en": "My aim is to help you manage your holiday property with greater clarity, organisation and peace of mind."
+  },
   "section_consulenza": {
     "it": "Consulenza e avvio dell'attività",
     "de": "Beratung und Start der Tätigkeit",
@@ -119,89 +114,89 @@
     "de": "Ferienhaus",
     "en": "Holiday House"
   },
- 
-"section_consulenza_text": {
-  "it": "Vuoi affittare la tua casa vacanze in Italia? Ti aiuto a capire quali requisiti devi rispettare, quali documenti servono e quali procedure seguire. Ti accompagno negli adempimenti burocratici e, quando necessario, ti aiuto a richiedere il codice identificativo CIN, per affrontare ogni passaggio con maggiore chiarezza e tranquillità.",
-  "de": "Du möchtest dein Ferienhaus in Italien vermieten? Ich helfe dir zu verstehen, welche Anforderungen du erfüllen musst, welche Unterlagen benötigt werden und welche Schritte zu beachten sind. Ich unterstütze dich bei den bürokratischen Formalitäten und helfe dir bei Bedarf, den Identifikationscode CIN zu beantragen, damit du jeden Schritt mit mehr Klarheit und Sicherheit angehen kannst.",
-  "en": "Would you like to rent out your holiday home in Italy? I help you understand which requirements you need to meet, which documents are necessary and which procedures to follow. I guide you through the administrative formalities and, when needed, help you apply for the CIN identification code, so you can approach each step with greater clarity and confidence."
-},
-
- 
-"section_gestione": {
-  "it": "Gestione operativa delle case vacanze sul Lago di Como",
-  "de": "Operative Verwaltung von Ferienimmobilien am Comer See",
-  "en": "Holiday Rental Management around Lake Como"
-},
-"section_gestione_list_1": {
-  "it": "Creazione, pubblicazione e gestione degli annunci",
-  "de": "Erstellung, Veröffentlichung und Verwaltung der Inserate",
-  "en": "Creation, publication and management of listings"
-},
-"section_gestione_list_2": {
-  "it": "Accoglienza e assistenza agli ospiti durante il soggiorno",
-  "de": "Empfang und Betreuung der Gäste während ihres Aufenthalts",
-  "en": "Guest welcome and support throughout their stay"
-},
-"section_gestione_list_3": {
-  "it": "Organizzazione e coordinamento delle pulizie",
-  "de": "Organisation und Koordination der Reinigungsarbeiten",
-  "en": "Organisation and coordination of cleaning"
-},
-"section_gestione_list_4": {
-  "it": "Cura e manutenzione del giardino",
-  "de": "Pflege und Instandhaltung des Gartens",
-  "en": "Garden care and maintenance"
-},
-"section_gestione_list_5": {
-  "it": "Cura e manutenzione della piscina",
-  "de": "Pflege und Instandhaltung des Pools",
-  "en": "Pool care and maintenance"
-},
-"section_gestione_list_6": {
-  "it": "Coordinamento della manutenzione generale dell'immobile",
-  "de": "Koordination der allgemeinen Instandhaltung der Immobilie",
-  "en": "Coordination of general property maintenance"
-},
-
- 
-"section_consulenza_proprietari": {
-  "it": "Consulenza personalizzata per proprietari in tutta Italia",
-  "de": "Individuelle Beratung für Eigentümer in ganz Italien",
-  "en": "Personalised Consultancy for Property Owners throughout Italy"
-},
-"section_consulenza_proprietari_text": {
-  "it": "Ogni immobile e ogni proprietario hanno esigenze diverse. Ti offro una consulenza personalizzata per aiutarti a individuare le procedure da seguire, comprendere gli obblighi applicabili alla tua situazione e organizzare al meglio la tua attività di affitto turistico. Possiamo valutare insieme le tue esigenze e individuare i passi più adatti da compiere.",
-  "de": "Jede Immobilie und jeder Eigentümer hat unterschiedliche Bedürfnisse. Ich biete dir eine individuelle Beratung, um die erforderlichen Verfahren zu ermitteln, die für deine Situation geltenden Pflichten zu verstehen und deine Ferienvermietung bestmöglich zu organisieren. Gemeinsam können wir deine Bedürfnisse besprechen und die passenden nächsten Schritte festlegen.",
-  "en": "Every property and every owner has different needs. I offer personalised consultancy to help you identify the procedures to follow, understand the requirements that apply to your situation and organise your holiday rental business more effectively. Together, we can assess your needs and identify the most suitable next steps."
-},
-
- 
-"section_contatti": {
-  "it": "Parliamone",
-  "de": "Lass uns sprechen",
-  "en": "Get in Touch"
-},
-"email": {
-  "it": "sandra.schneider@example.com",
-  "de": "sandra.schneider@example.com",
-  "en": "sandra.schneider@example.com"
-},
-"phone": {
-  "it": "+39 123 456 789",
-  "de": "+39 123 456 789",
-  "en": "+39 123 456 789"
-},
-"legal_info": {
-  "it": "Consulta le informazioni legali",
-  "de": "Rechtliche Informationen ansehen",
-  "en": "View Legal Information"
-},
-
- 
-"footer_text": {
-  "it": "Consulenza e supporto per la tua casa vacanze in Italia.",
-  "de": "Beratung und Unterstützung für deine Ferienimmobilie in Italien.",
-  "en": "Consultancy and support for your holiday home in Italy."
-}
-
+  "section_consulenza_text_1": {
+    "it": "Vuoi affittare la tua casa vacanze in Italia? Ti aiuto a capire quali requisiti devi rispettare, quali documenti servono e quali procedure seguire.",
+    "de": "Du möchtest dein Ferienhaus in Italien vermieten? Ich helfe dir zu verstehen, welche Anforderungen du erfüllen musst, welche Unterlagen benötigt werden und welche Schritte zu beachten sind.",
+    "en": "Would you like to rent out your holiday home in Italy? I help you understand which requirements you need to meet, which documents are necessary and which procedures to follow."
+  },
+  "section_consulenza_text_2": {
+    "it": "Ti accompagno negli adempimenti burocratici e, quando necessario, ti aiuto a richiedere il codice identificativo CIN, per affrontare ogni passaggio con maggiore chiarezza e tranquillità.",
+    "de": "Ich unterstütze dich bei den bürokratischen Formalitäten und helfe dir bei Bedarf, den Identifikationscode CIN zu beantragen, damit du jeden Schritt mit mehr Klarheit und Sicherheit angehen kannst.",
+    "en": "I guide you through the administrative formalities and, when needed, help you apply for the CIN identification code, so you can approach each step with greater clarity and confidence."
+  },
+  "section_gestione": {
+    "it": "Gestione operativa delle case vacanze sul Lago di Como",
+    "de": "Operative Verwaltung von Ferienimmobilien am Comer See",
+    "en": "Holiday Rental Management around Lake Como"
+  },
+  "section_gestione_list_1": {
+    "it": "Creazione, pubblicazione e gestione degli annunci",
+    "de": "Erstellung, Veröffentlichung und Verwaltung der Inserate",
+    "en": "Creation, publication and management of listings"
+  },
+  "section_gestione_list_2": {
+    "it": "Accoglienza e assistenza agli ospiti durante il soggiorno",
+    "de": "Empfang und Betreuung der Gäste während ihres Aufenthalts",
+    "en": "Guest welcome and support throughout their stay"
+  },
+  "section_gestione_list_3": {
+    "it": "Organizzazione e coordinamento delle pulizie",
+    "de": "Organisation und Koordination der Reinigungsarbeiten",
+    "en": "Organisation and coordination of cleaning"
+  },
+  "section_gestione_list_4": {
+    "it": "Cura e manutenzione del giardino",
+    "de": "Pflege und Instandhaltung des Gartens",
+    "en": "Garden care and maintenance"
+  },
+  "section_gestione_list_5": {
+    "it": "Cura e manutenzione della piscina",
+    "de": "Pflege und Instandhaltung des Pools",
+    "en": "Pool care and maintenance"
+  },
+  "section_gestione_list_6": {
+    "it": "Coordinamento della manutenzione generale dell'immobile",
+    "de": "Koordination der allgemeinen Instandhaltung der Immobilie",
+    "en": "Coordination of general property maintenance"
+  },
+  "section_consulenza_proprietari": {
+    "it": "Consulenza personalizzata per proprietari in tutta Italia",
+    "de": "Individuelle Beratung für Eigentümer in ganz Italien",
+    "en": "Personalised Consultancy for Property Owners throughout Italy"
+  },
+  "section_consulenza_proprietari_text_1": {
+    "it": "Ogni immobile e ogni proprietario hanno esigenze diverse. Ti offro una consulenza personalizzata per aiutarti a individuare le procedure da seguire, comprendere gli obblighi applicabili alla tua situazione e organizzare al meglio la tua attività di affitto turistico.",
+    "de": "Jede Immobilie und jeder Eigentümer hat unterschiedliche Bedürfnisse. Ich biete dir eine individuelle Beratung, um die erforderlichen Verfahren zu ermitteln, die für deine Situation geltenden Pflichten zu verstehen und deine Ferienvermietung bestmöglich zu organisieren.",
+    "en": "Every property and every owner has different needs. I offer personalised consultancy to help you identify the procedures to follow, understand the requirements that apply to your situation and organise your holiday rental business more effectively."
+  },
+  "section_consulenza_proprietari_text_2": {
+    "it": "Possiamo valutare insieme le tue esigenze e individuare i passi più adatti da compiere.",
+    "de": "Gemeinsam können wir deine Bedürfnisse besprechen und die passenden nächsten Schritte festlegen.",
+    "en": "Together, we can assess your needs and identify the most suitable next steps."
+  },
+  "section_contatti": {
+    "it": "Parliamone",
+    "de": "Lass uns sprechen",
+    "en": "Get in Touch"
+  },
+  "email": {
+    "it": "sandra.schneider@example.com",
+    "de": "sandra.schneider@example.com",
+    "en": "sandra.schneider@example.com"
+  },
+  "phone": {
+    "it": "+39 123 456 789",
+    "de": "+39 123 456 789",
+    "en": "+39 123 456 789"
+  },
+  "legal_info": {
+    "it": "Consulta le informazioni legali",
+    "de": "Rechtliche Informationen ansehen",
+    "en": "View Legal Information"
+  },
+  "footer_text": {
+    "it": "Consulenza e supporto per la tua casa vacanze in Italia.",
+    "de": "Beratung und Unterstützung für deine Ferienimmobilie in Italien.",
+    "en": "Consultancy and support for your holiday home in Italy."
+  }
 }
