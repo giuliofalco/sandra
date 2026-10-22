@@ -30,11 +30,13 @@
 
             <div class="intro-box">
                 <h2 class="intro-title">{{ intro_title }}</h2>
+               
                 <p class="intro-text">{{ intro_text_1 }}</p>
                 <p class="intro-text">{{ intro_text_2 }}</p>
                 <p class="intro-text">{{ intro_text_3 }}</p>
                 <p class="intro-text">{{ intro_text_4 }}</p>
                 <p class="intro-text">{{ intro_text_5 }}</p>
+                
             </div>
 
             <nav class="main-navigation" aria-label="Navigazione principale">
@@ -55,47 +57,65 @@
 
     <main class="site-main">
         <section id="presentazione" class="presentation-section">
-            <h2>{{ section_presentazione }}</h2>
-            <div class="presentation-content">
-                <img src="{% static 'images/sandra-2.jpg' %}"
-                     alt="{{ profile_image_alt }}"
-                     class="profile-image">
-                <div class="presentation-text">
-                    <p>{{ section_presentazione_text }}</p>
-                </div>
+          <h2>{{ section_presentazione }}</h2>
+
+          <div class="presentation-content">
+            <img src="{% static 'images/sandra.png' %}"
+             alt="{{ profile_image_alt }}"
+             class="profile-image">
+
+            <div class="presentation-text">
+              <p>{{ section_presentazione_text_1 }}</p>
+              <p>{{ section_presentazione_text_2 }}</p>
+              <p>{{ section_presentazione_text_3 }}</p>
+              <p>{{ section_presentazione_text_4 }}</p>
+              <p>{{ section_presentazione_text_5 }}</p>
             </div>
+          </div>
         </section>
 
-        <section id="consulenza" class="content-section">
-            <h2>{{ section_consulenza }}</h2>
-            <img src="{% static 'images/casa-vacanze.jpg' %}"
-                 alt="{{ property_image_alt }}"
-                 class="property-image">
+        
+<section id="consulenza" class="content-section">
+    <h2>{{ section_consulenza }}</h2>
+    <div class="service-content">
+        <img src="{% static 'images/casa-vacanze.jpg' %}"
+             alt="{{ property_image_alt }}"
+             class="property-image">
+        <div class="service-text">
             <p>{{ section_consulenza_text }}</p>
-        </section>
+        </div>
+    </div>
+</section>
 
-        <section id="gestione" class="content-section">
-            <h2>{{ section_gestione }}</h2>
-            <img src="{% static 'images/interni.jpg' %}"
-                 alt="{{ property_image_alt }}"
-                 class="property-image">
-            <ul class="service-list">
-                <li>{{ section_gestione_list_1 }}</li>
-                <li>{{ section_gestione_list_2 }}</li>
-                <li>{{ section_gestione_list_3 }}</li>
-                <li>{{ section_gestione_list_4 }}</li>
-                <li>{{ section_gestione_list_5 }}</li>
-                <li>{{ section_gestione_list_6 }}</li>
-            </ul>
-        </section>
+<section id="gestione" class="content-section">
+    <h2>{{ section_gestione }}</h2>
+    <div class="service-content">
+        <img src="{% static 'images/interni.jpg' %}"
+             alt="{{ property_image_alt }}"
+             class="property-image">
+        <ul class="service-list">
+            <li>{{ section_gestione_list_1 }}</li>
+            <li>{{ section_gestione_list_2 }}</li>
+            <li>{{ section_gestione_list_3 }}</li>
+            <li>{{ section_gestione_list_4 }}</li>
+            <li>{{ section_gestione_list_5 }}</li>
+            <li>{{ section_gestione_list_6 }}</li>
+        </ul>
+    </div>
+</section>
 
-        <section id="consulenza-proprietari" class="content-section">
-            <h2>{{ section_consulenza_proprietari }}</h2>
-            <img src="{% static 'images/sandra-6.jpg' %}"
-                 alt="{{ profile_image_alt }}"
-                 class="profile-image">
+<section id="consulenza-proprietari" class="content-section">
+    <h2>{{ section_consulenza_proprietari }}</h2>
+    <div class="service-content">
+        <img src="{% static 'images/sandra-6.jpg' %}"
+             alt="{{ profile_image_alt }}"
+             class="profile-image">
+        <div class="service-text">
             <p>{{ section_consulenza_proprietari_text }}</p>
-        </section>
+        </div>
+    </div>
+</section>
+
 
         <section id="contatti" class="content-section contact-section">
             <h2>{{ section_contatti }}</h2>
