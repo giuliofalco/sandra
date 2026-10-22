@@ -3,69 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sandra Schneider - Consulenza e Gestione Immobili per Vacanze in Italia</title>
+    <title>{{ title }}</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
     <header>
-        <h1>Sandra Schneider</h1>
+        <h1>{{ header_title }}</h1>
         <div class="intro-box">
-            <h2 class="intro-title">Esperti in immobili per vacanze in Italia</h2>
-            <p class="intro-text">Avvio dell'attività | Coaching | Gestione immobiliare</p>
-            <p class="intro-text">Vi accompagniamo dalla prima idea fino alla messa in affitto del vostro immobile per vacanze in Italia.</p>
-            <p class="intro-text">Attraverso il coaching, vi aiutiamo a fare chiarezza su obblighi e requisiti, a registrare il vostro immobile per vacanze (avvio dell'attività | CIN) e vi affianchiamo nella promozione e nel posizionamento sui diversi portali di prenotazione.</p>
-            <p class="intro-text">Dove? In tutta Italia!</p>
-            <p class="intro-text">E sul Lago di Como vi offriamo anche un supporto direttamente sul posto, per tutto ciò che riguarda il vostro immobile per vacanze.</p>
+            <h2 class="intro-title">{{ intro_title }}</h2>
+            <p class="intro-text">{{ intro_text_1 }}</p>
+            <p class="intro-text">{{ intro_text_2 }}</p>
+            <p class="intro-text">{{ intro_text_3 }}</p>
+            <p class="intro-text">{{ intro_text_4 }}</p>
+            <p class="intro-text">{{ intro_text_5 }}</p>
         </div>
-        <img src="{% static 'images/header.jpg' %}" alt="Intestazione del sito di Sandra Schneider" class="header-image">
+        <img src="{% static 'images/header.jpg' %}" alt="{{ header_image_alt }}" class="header-image">
     </header>
     <main>
         <nav>
             <ul>
-                <li><a href="#presentazione">Presentazione</a></li>
-                <li><a href="#consulenza">Consulenza</a></li>
-                <li><a href="#gestione">Gestione</a></li>
-                <li><a href="#consulenza-proprietari">Consulenza per proprietari</a></li>
-                <li><a href="#contatti">Contatti</a></li>
+                <li><a href="?lang=it"><img src="{% static 'images/it_flag.png' %}" alt="Italiano"></a></li>
+                <li><a href="?lang=de"><img src="{% static 'images/de_flag.png' %}" alt="Deutsch"></a></li>
+                <li><a href="#presentazione">{{ nav_presentazione }}</a></li>
+                <li><a href="#consulenza">{{ nav_consulenza }}</a></li>
+                <li><a href="#gestione">{{ nav_gestione }}</a></li>
+                <li><a href="#consulenza-proprietari">{{ nav_consulenza_proprietari }}</a></li>
+                <li><a href="#contatti">{{ nav_contatti }}</a></li>
             </ul>
         </nav>
         <section id="presentazione">
-            <h2>Presentazione</h2>
-            <img src="{% static 'images/sandra-2.jpg' %}" alt="Sandra Schneider" class="profile-image">
-            <p>Specialisti nella consulenza e nella gestione di immobili per vacanze in Italia.</p>
+            <h2>{{ section_presentazione }}</h2>
+            <img src="{% static 'images/sandra-2.jpg' %}" alt="{{ profile_image_alt }}" class="profile-image">
+            <p>{{ section_presentazione_text }}</p>
         </section>
         <section id="consulenza">
-            <h2>Consulenza e avvio dell'attività</h2>
-            <img src="{% static 'images/casa-vacanze.jpg' %}" alt="Casa vacanze" class="property-image">
-            <p>Ti aiutiamo ad avviare la tua attività ricettiva, occupandoci anche degli adempimenti normativi e della richiesta del codice CIN.</p>
+            <h2>{{ section_consulenza }}</h2>
+            <img src="{% static 'images/casa-vacanze.jpg' %}" alt="{{ property_image_alt }}" class="property-image">
+            <p>{{ section_consulenza_text }}</p>
         </section>
         <section id="gestione">
-            <h2>Gestione degli immobili sul Lago di Como</h2>
-            <img src="{% static 'images/interni.jpg' %}" alt="Interni di una casa vacanze" class="property-image">
+            <h2>{{ section_gestione }}</h2>
+            <img src="{% static 'images/interni.jpg' %}" alt="{{ property_image_alt }}" class="property-image">
             <ul>
-                <li>Creazione e gestione degli annunci</li>
-                <li>Accoglienza e assistenza agli ospiti</li>
-                <li>Pulizie</li>
-                <li>Manutenzione del giardino</li>
-                <li>Manutenzione della piscina</li>
-                <li>Manutenzione generale dell'immobile</li>
+                <li>{{ section_gestione_list_1 }}</li>
+                <li>{{ section_gestione_list_2 }}</li>
+                <li>{{ section_gestione_list_3 }}</li>
+                <li>{{ section_gestione_list_4 }}</li>
+                <li>{{ section_gestione_list_5 }}</li>
+                <li>{{ section_gestione_list_6 }}</li>
             </ul>
         </section>
         <section id="consulenza-proprietari">
-            <h2>Consulenza per proprietari in tutta Italia</h2>
-            <img src="{% static 'images/sandra-6.jpg' %}" alt="Sandra Schneider" class="profile-image">
-            <p>Consulenza personalizzata per proprietari che desiderano valorizzare il proprio immobile e gestire al meglio un'attività di locazione turistica.</p>
+            <h2>{{ section_consulenza_proprietari }}</h2>
+            <img src="{% static 'images/sandra-6.jpg' %}" alt="{{ profile_image_alt }}" class="profile-image">
+            <p>{{ section_consulenza_proprietari_text }}</p>
         </section>
         <section id="contatti">
-            <h2>Contatti</h2>
-            <p>Email: <a href="mailto:sandra.schneider@example.com">sandra.schneider@example.com</a></p>
-            <p>Telefono: <a href="tel:+39123456789">+39 123 456 789</a></p>
-            <p>Informazioni legali: <a href="/legal">Consulta le informazioni legali</a></p>
+            <h2>{{ section_contatti }}</h2>
+            <p>Email: <a href="mailto:sandra.schneider@example.com">{{ email }}</a></p>
+            <p>Telefono: <a href="tel:+39123456789">{{ phone }}</a></p>
+            <p>Informazioni legali: <a href="/legal">{{ legal_info }}</a></p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Sandra Schneider. Tutti i diritti riservati.</p>
+        <p>{{ footer_text }}</p>
     </footer>
     <script src="{% static 'js/scripts.js' %}"></script>
 </body>
