@@ -6,8 +6,27 @@
     <title>{{ title }}</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <style>
+        .language-selector {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .language-selector a {
+            text-decoration: none;
+            margin: 0 5px;
+            color: black;
+        }
+        .language-selector a.active {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+    <div class="language-selector">
+        <a href="?lang=it" class="{% if lang == 'it' %}active{% endif %}">🇮🇹</a>
+        <a href="?lang=de" class="{% if lang == 'de' %}active{% endif %}">🇩🇪</a>
+    </div>
     <header>
         <h1>{{ header_title }}</h1>
         <div class="intro-box">
@@ -23,8 +42,6 @@
     <main>
         <nav>
             <ul>
-                <li><a href="?lang=it"><img src="{% static 'images/it_flag.png' %}" alt="Italiano"></a></li>
-                <li><a href="?lang=de"><img src="{% static 'images/de_flag.png' %}" alt="Deutsch"></a></li>
                 <li><a href="#presentazione">{{ nav_presentazione }}</a></li>
                 <li><a href="#consulenza">{{ nav_consulenza }}</a></li>
                 <li><a href="#gestione">{{ nav_gestione }}</a></li>
