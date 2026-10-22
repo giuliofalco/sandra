@@ -198,5 +198,42 @@
     "it": "Consulenza e supporto per la tua casa vacanze in Italia.",
     "de": "Beratung und Unterstützung für deine Ferienimmobilie in Italien.",
     "en": "Consultancy and support for your holiday home in Italy."
-  }
+  },
+
+"privacy_title": {
+    "it": "La tua privacy è importante",
+    "de": "Deine Privatsphäre ist uns wichtig",
+    "en": "Your privacy matters"
+},
+"privacy_text_1": {
+    "it": "Questo sito ha uno scopo puramente informativo. Non utilizziamo strumenti pubblicitari, cookie di profilazione o sistemi di analisi per tracciare la navigazione dei visitatori.",
+    "de": "Diese Website dient ausschließlich Informationszwecken. Wir verwenden keine Werbetools, Profiling-Cookies oder Analysesysteme, um das Surfverhalten der Besucher zu verfolgen.",
+    "en": "This website is for informational purposes only. We do not use advertising tools, profiling cookies, or analytics systems to track visitors' browsing activity."
+},
+"privacy_text_2": {
+    "it": "Il sito non richiede registrazioni e non contiene moduli per l'invio di dati personali.",
+    "de": "Diese Website erfordert keine Registrierung und enthält keine Formulare zur Übermittlung personenbezogener Daten.",
+    "en": "The website does not require registration and contains no forms for submitting personal data."
+},
+"privacy_text_3": {
+    "it": "Per il funzionamento tecnico del sito, il servizio di hosting potrebbe trattare dati relativi alle richieste di accesso, come previsto dalla propria configurazione.",
+    "de": "Für den technischen Betrieb der Website kann der Hosting-Anbieter entsprechend seiner Konfiguration Daten zu Zugriffen verarbeiten.",
+    "en": "For the technical operation of the website, the hosting provider may process access-related data according to its configuration."
+},
+"privacy_text_4": {
+    "it": "Per ulteriori informazioni sulla gestione dei dati personali, puoi contattare Sandra Schneider.",
+    "de": "Wenn du weitere Informationen zur Verarbeitung personenbezogener Daten wünschst, kannst du Sandra Schneider kontaktieren.",
+    "en": "For further information about the handling of personal data, you can contact Sandra Schneider."
+},
+"privacy_close": {
+    "it": "Chiudi",
+    "de": "Schließen",
+    "en": "Close"
+},
+"privacy_close_label": {
+    "it": "Chiudi la finestra",
+    "de": "Fenster schließen",
+    "en": "Close dialog"
+}
+
 }
