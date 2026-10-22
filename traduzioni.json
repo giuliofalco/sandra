@@ -1,149 +1,137 @@
 {
-  "lingua_html": [
-    "it",
-    "de"
-  ],
-  "titolo_pagina": [
+  "title": [
     "Sandra Schneider - Consulenza e Gestione Immobili per Vacanze in Italia",
-    "Sandra Schneider – Beratung und Verwaltung von Ferienimmobilien in Italien"
+    "Sandra Schneider - Immobilienberatung und Verwaltung für Urlaubswohnungen in Italien"
   ],
-  "titolo_intro": [
+  "header_title": [
+    "Sandra Schneider",
+    "Sandra Schneider"
+  ],
+  "intro_title": [
     "Esperti in immobili per vacanze in Italia",
-    "Ihre Expertin für Ferienimmobilien in Italien"
+    "Experten für Ferienimmobilien in Italien"
   ],
-  "intro_servizi_brevi": [
+  "intro_text_1": [
     "Avvio dell'attività | Coaching | Gestione immobiliare",
-    "Gründungsberatung | Coaching | Immobilienverwaltung"
+    "Start der Tätigkeit | Coaching | Immobilienverwaltung"
   ],
-  "intro_accompagnamento": [
+  "intro_text_2": [
     "Vi accompagniamo dalla prima idea fino alla messa in affitto del vostro immobile per vacanze in Italia.",
-    "Wir begleiten Sie von der ersten Idee bis zur Vermietung Ihrer Ferienimmobilie in Italien."
+    "Wir begleiten Sie von der ersten Idee bis zur Vermietung Ihres Immobilienobjekts für Urlaub in Italien."
   ],
-  "intro_coaching": [
+  "intro_text_3": [
     "Attraverso il coaching, vi aiutiamo a fare chiarezza su obblighi e requisiti, a registrare il vostro immobile per vacanze (avvio dell'attività | CIN) e vi affianchiamo nella promozione e nel posizionamento sui diversi portali di prenotazione.",
-    "Mit unserem Coaching helfen wir Ihnen, Klarheit über Pflichten und Anforderungen zu gewinnen, Ihre Ferienimmobilie ordnungsgemäß anzumelden (Gründung | CIN-Code) und sie auf verschiedenen Buchungsportalen zu präsentieren und optimal zu positionieren."
+    "Durch das Coaching helfen wir Ihnen, Ihre Pflichten und Anforderungen zu klären, Ihr Immobilienobjekt für Urlaub (Start der Tätigkeit | CIN) zu registrieren und Sie bei der Vermarktung und der Positionierung auf verschiedenen Buchungsportalen zu unterstützen."
   ],
-  "intro_dove": [
+  "intro_text_4": [
     "Dove? In tutta Italia!",
-    "Wo? In ganz Italien!"
+    "Wo? Überall in Italien!"
   ],
-  "intro_lago_como": [
+  "intro_text_5": [
     "E sul Lago di Como vi offriamo anche un supporto direttamente sul posto, per tutto ciò che riguarda il vostro immobile per vacanze.",
-    "Am Comer See unterstützen wir Sie außerdem direkt vor Ort bei allen Fragen rund um Ihre Ferienimmobilie."
+    "Und am Como-Lake bieten wir Ihnen auch direktes Unterstützung auf dem Standort, für alles, was Ihr Immobilienobjekt für Urlaub betrifft."
   ],
-  "alt_header": [
+  "header_image_alt": [
     "Intestazione del sito di Sandra Schneider",
-    "Kopfbereich der Website von Sandra Schneider"
+    "Header des Sandra Schneider-Sites"
   ],
-  "menu_presentazione": [
+  "nav_presentazione": [
     "Presentazione",
     "Über mich"
   ],
-  "menu_consulenza": [
+  "nav_consulenza": [
     "Consulenza",
     "Beratung"
   ],
-  "menu_gestione": [
+  "nav_gestione": [
     "Gestione",
     "Verwaltung"
   ],
-  "menu_consulenza_proprietari": [
+  "nav_consulenza_proprietari": [
     "Consulenza per proprietari",
     "Beratung für Eigentümer"
   ],
-  "menu_contatti": [
+  "nav_contatti": [
     "Contatti",
     "Kontakt"
   ],
-  "titolo_presentazione": [
+  "section_presentazione": [
     "Presentazione",
     "Über mich"
   ],
-  "alt_sandra_presentazione": [
+  "profile_image_alt": [
     "Sandra Schneider",
     "Sandra Schneider"
   ],
-  "testo_presentazione": [
+  "section_presentazione_text": [
     "Specialisti nella consulenza e nella gestione di immobili per vacanze in Italia.",
-    "Spezialisiert auf die Beratung und Verwaltung von Ferienimmobilien in Italien."
+    "Spezialisten in Immobilienberatung und -verwaltung für Urlaub in Italien."
   ],
-  "titolo_consulenza": [
+  "section_consulenza": [
     "Consulenza e avvio dell'attività",
-    "Beratung und Aufbau Ihrer Ferienvermietung"
+    "Beratung und Start der Tätigkeit"
   ],
-  "alt_casa_vacanze": [
+  "property_image_alt": [
     "Casa vacanze",
     "Ferienhaus"
   ],
-  "testo_consulenza": [
+  "section_consulenza_text": [
     "Ti aiutiamo ad avviare la tua attività ricettiva, occupandoci anche degli adempimenti normativi e della richiesta del codice CIN.",
-    "Wir helfen Ihnen beim Aufbau Ihrer Ferienvermietung und kümmern uns auch um die gesetzlichen Anforderungen sowie die Beantragung des CIN-Codes."
+    "Wir helfen Ihnen, Ihre Empfangstätigkeit zu starten und kümmern uns auch um die gesetzlichen Anforderungen und die Antragstellung des CIN-Codes."
   ],
-  "titolo_gestione": [
+  "section_gestione": [
     "Gestione degli immobili sul Lago di Como",
-    "Verwaltung von Ferienimmobilien am Comer See"
+    "Verwaltung von Immobilien am Como-Lake"
   ],
-  "alt_interni": [
-    "Interni di una casa vacanze",
-    "Innenräume eines Ferienhauses"
-  ],
-  "gestione_annunci": [
+  "section_gestione_list_1": [
     "Creazione e gestione degli annunci",
-    "Erstellung und Verwaltung der Inserate"
+    "Erstellung und Verwaltung der Anzeigen"
   ],
-  "gestione_ospiti": [
+  "section_gestione_list_2": [
     "Accoglienza e assistenza agli ospiti",
-    "Empfang und Betreuung der Gäste"
+    "Willkommen und Unterstützung der Gäste"
   ],
-  "gestione_pulizie": [
+  "section_gestione_list_3": [
     "Pulizie",
     "Reinigung"
   ],
-  "gestione_giardino": [
+  "section_gestione_list_4": [
     "Manutenzione del giardino",
     "Gartenpflege"
   ],
-  "gestione_piscina": [
+  "section_gestione_list_5": [
     "Manutenzione della piscina",
-    "Poolpflege"
+    "Pflege der Schwimmbad"
   ],
-  "gestione_generale": [
+  "section_gestione_list_6": [
     "Manutenzione generale dell'immobile",
-    "Allgemeine Instandhaltung der Immobilie"
+    "Allgemeine Immobilienpflege"
   ],
-  "titolo_consulenza_proprietari": [
+  "section_consulenza_proprietari": [
     "Consulenza per proprietari in tutta Italia",
-    "Beratung für Eigentümer in ganz Italien"
+    "Beratung für Eigentümer überall in Italien"
   ],
-  "alt_sandra_proprietari": [
-    "Sandra Schneider",
-    "Sandra Schneider"
-  ],
-  "testo_consulenza_proprietari": [
+  "section_consulenza_proprietari_text": [
     "Consulenza personalizzata per proprietari che desiderano valorizzare il proprio immobile e gestire al meglio un'attività di locazione turistica.",
-    "Individuelle Beratung für Eigentümer, die den Wert ihrer Immobilie steigern und ihre Ferienvermietung bestmöglich organisieren möchten."
+    "Individuelle Beratung für Eigentümer, die ihr Immobilienobjekt wertschätzen und eine optimale Vermietung betreiben möchten."
   ],
-  "titolo_contatti": [
+  "section_contatti": [
     "Contatti",
     "Kontakt"
   ],
-  "etichetta_email": [
-    "Email:",
-    "E-Mail:"
+  "email": [
+    "sandra.schneider@example.com",
+    "sandra.schneider@example.com"
   ],
-  "etichetta_telefono": [
-    "Telefono:",
-    "Telefon:"
+  "phone": [
+    "+39 123 456 789",
+    "+39 123 456 789"
   ],
-  "etichetta_informazioni_legali": [
-    "Informazioni legali:",
-    "Rechtliche Informationen:"
-  ],
-  "link_informazioni_legali": [
+  "legal_info": [
     "Consulta le informazioni legali",
-    "Rechtliche Informationen ansehen"
+    "Lesen Sie die rechtlichen Informationen"
   ],
-  "footer_copyright": [
+  "footer_text": [
     "© 2023 Sandra Schneider. Tutti i diritti riservati.",
     "© 2023 Sandra Schneider. Alle Rechte vorbehalten."
   ]
