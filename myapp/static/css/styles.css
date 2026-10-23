@@ -100,6 +100,7 @@ img {
     background: var(--azzurro-chiaro);
     border: 1px solid #e0edf2;
     border-radius: var(--raggio);
+    position: relative;
 }
 
 .intro-title {
@@ -168,6 +169,8 @@ img {
     max-height: 580px;
     object-fit: cover;
     object-position: center;
+    margin-top: -350px;
+    margin-bottom: 20px;
 }
 
 /* Contenuto principale */

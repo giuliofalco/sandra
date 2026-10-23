@@ -24,9 +24,8 @@
                aria-label="English"
                {% if lang == 'en' %}aria-current="page"{% endif %}>🇬🇧</a>
         </div>
-
-        <div class="header-content">
-            <h1>{{ header_title }}</h1>
+        <h1>{{ header_title }}</h1> 
+                  
 
             <div class="intro-box">
                 <h2 class="intro-title">{{ intro_title }}</h2>
@@ -38,7 +37,10 @@
                 <p class="intro-text">{{ intro_text_5 }}</p>
                 
             </div>
-
+        <img src="{% static 'images/header.jpg' %}"
+             alt="{{ header_image_alt }}"
+             class="header-image">
+        <div class="header-content">
             <nav class="main-navigation" aria-label="Navigazione principale">
                 <ul>
                     <li><a href="#presentazione">{{ nav_presentazione }}</a></li>
@@ -50,9 +52,7 @@
             </nav>
         </div>
 
-        <img src="{% static 'images/header.jpg' %}"
-             alt="{{ header_image_alt }}"
-             class="header-image">
+        
     </header>
 
     <main class="site-main">
