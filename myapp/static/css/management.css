@@ -1,0 +1,293 @@
+/*
+ * Stile dedicato alla pagina Gestione.
+ * Viene caricato dopo styles.css: le regole restano circoscritte
+ * a .management-page e non modificano la home o Consulenze.
+ */
+
+.management-page {
+    --management-ink: #173b5e;
+    --management-blue: #285f86;
+    --management-sky: #e8f2f7;
+    --management-sand: #f7f3eb;
+    --management-line: #d8e5eb;
+    --management-muted: #536b7b;
+
+    width: min(1100px, calc(100% - 40px));
+    max-width: 1100px;
+    padding: 2.8rem 0 3.5rem;
+}
+
+/* Intestazione: fascia blu sfumata, senza toccare il selettore lingue. */
+.site-header:has(+ .management-page) {
+    padding: 4.2rem 0 3.4rem;
+    overflow: hidden;
+    background:
+        radial-gradient(ellipse at 15% 110%, rgba(255,255,255,.14), transparent 42%),
+        linear-gradient(125deg, #173b5e 0%, #285f86 68%, #477f9f 100%);
+    color: #fff;
+}
+
+.site-header:has(+ .management-page) .header-content {
+    position: relative;
+    z-index: 1;
+}
+
+.site-header:has(+ .management-page) h1 {
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .01em;
+}
+
+.site-header:has(+ .management-page) .intro-text {
+    max-width: 760px;
+    margin: 0 auto;
+    color: #edf6fa;
+    font-size: clamp(1.05rem, 2vw, 1.2rem);
+    line-height: 1.7;
+    text-align: center;
+}
+
+/* La selezione della lingua resta leggibile sull'intestazione scura. */
+.site-header:has(+ .management-page) .language-selector a {
+    border-color: rgba(255,255,255,.2);
+}
+
+.site-header:has(+ .management-page) .language-selector a:hover,
+.site-header:has(+ .management-page) .language-selector a:focus-visible,
+.site-header:has(+ .management-page) .language-selector a.active {
+    background: rgba(255,255,255,.16);
+    border-color: rgba(255,255,255,.55);
+}
+
+/* Fondo leggermente caldo e sezioni più definite. */
+body:has(.management-page) {
+    background: #f7f6f2;
+}
+
+.management-page .content-section {
+    margin-bottom: 2rem;
+    padding: clamp(1.5rem, 3.5vw, 2.5rem);
+    background: #fff;
+    border: 1px solid rgba(216,229,235,.9);
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(23,59,94,.065);
+}
+
+.management-page .content-section:first-child {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #fff 0%, #f0f6f8 100%);
+}
+
+.management-page .content-section:first-child::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 100%;
+    background: linear-gradient(#477f9f, #c9dfe9);
+}
+
+.management-page .content-section h2 {
+    color: var(--management-ink, #173b5e);
+    font-weight: 600;
+}
+
+.management-page .service-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.management-page .service-text p {
+    color: #354e5f;
+    font-size: 1.06rem;
+    line-height: 1.9;
+}
+
+/* Pacchetti: accento superiore, prezzi in evidenza e più spazio. */
+.management-page .management-packages {
+    gap: 1.5rem;
+    margin-top: .4rem;
+}
+
+.management-page .management-package {
+    position: relative;
+    overflow: hidden;
+    padding: clamp(1.5rem, 3vw, 2.1rem);
+    background: linear-gradient(180deg, #fff 0%, #fbfdfe 100%);
+    border: 1px solid #d9e6ec;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(23,59,94,.07);
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.management-page .management-package::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: 5px;
+    background: linear-gradient(90deg, #285f86, #9bc6d8);
+}
+
+.management-page .management-package:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 13px 30px rgba(23,59,94,.11);
+}
+
+.management-page .management-package h2 {
+    margin-top: .35rem;
+    color: #173b5e;
+    font-size: clamp(1.3rem, 2vw, 1.55rem);
+    font-weight: 600;
+    text-align: left;
+}
+
+.management-page .management-package .package-rate {
+    display: inline-block;
+    margin: .35rem 0 .4rem;
+    padding: .15rem 0;
+    color: #285f86;
+    font-size: clamp(2.2rem, 4vw, 2.8rem);
+    font-weight: 700;
+    letter-spacing: -.035em;
+    line-height: 1.2;
+}
+
+.management-page .management-package .package-rate-note {
+    margin-bottom: 1.35rem;
+    color: #627987;
+    font-size: .92rem;
+}
+
+.management-page .management-package > p:not(.package-rate):not(.package-rate-note) {
+    margin: .8rem 0;
+    color: #354e5f;
+    line-height: 1.8;
+}
+
+.management-page .management-package .service-list {
+    margin-top: 1.35rem;
+    padding: 1.1rem 1.1rem 1.1rem 1.7rem;
+    background: #f1f6f8;
+    border-radius: 10px;
+    color: #354e5f;
+    line-height: 1.8;
+}
+
+.management-page .management-package .service-list li {
+    margin-bottom: .65rem;
+    padding-left: .2rem;
+}
+
+.management-page .management-package .service-list li::marker {
+    color: #4d89a8;
+}
+
+.management-page .management-package .service-list li:last-child {
+    margin-bottom: 0;
+}
+
+.management-page .management-note {
+    max-width: 850px;
+    margin: 1.8rem auto .2rem;
+    padding: 1rem 1.25rem;
+    background: #f7f3eb;
+    border-left: 3px solid #c8b58e;
+    border-radius: 0 8px 8px 0;
+    color: #5e625f;
+    text-align: left;
+}
+
+/* Contatti con una superficie azzurra distinta dal resto della pagina. */
+.management-page .contact-section {
+    background: linear-gradient(135deg, #eaf3f7 0%, #f5f8f8 100%);
+    border-color: #d6e5ec;
+    text-align: center;
+}
+
+.management-page .contact-section h2 {
+    margin-bottom: 1.2rem;
+}
+
+.management-page .contact-section p {
+    margin: .55rem 0;
+    color: #354e5f;
+}
+
+.management-page .contact-section p strong {
+    color: #173b5e;
+    font-size: 1.12rem;
+}
+
+.management-page .contact-section a {
+    color: #205d83;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #a6c6d6;
+    text-underline-offset: 3px;
+}
+
+.management-page .contact-section a:hover,
+.management-page .contact-section a:focus-visible {
+    color: #173b5e;
+    text-decoration-color: currentColor;
+}
+
+/* Ritorno alla home: pulsante più morbido e ben visibile. */
+.management-page .management-back {
+    margin: 2.5rem 0 .5rem;
+}
+
+.management-page .management-back-link {
+    padding: .95rem 1.7rem;
+    border: 1px solid #173b5e;
+    border-radius: 999px;
+    background: #173b5e;
+    box-shadow: 0 6px 16px rgba(23,59,94,.15);
+    transition: background-color .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+
+.management-page .management-back-link:hover {
+    transform: translateY(-2px);
+    background: #285f86;
+    box-shadow: 0 9px 20px rgba(23,59,94,.2);
+}
+
+/* Il footer esistente mantiene il blu del sito, con un bordo più morbido. */
+body:has(.management-page) .site-footer {
+    border-top: 4px solid #9bc6d8;
+}
+
+@media (max-width: 760px) {
+    .management-page {
+        width: calc(100% - 28px);
+        padding-top: 1.8rem;
+    }
+
+    .site-header:has(+ .management-page) {
+        padding: 4.5rem 0 2.7rem;
+    }
+
+    .management-page .content-section {
+        margin-bottom: 1.4rem;
+        border-radius: 14px;
+    }
+
+    .management-page .management-package:hover {
+        transform: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .management-page .management-package,
+    .management-page .management-back-link {
+        transition: none;
+    }
+
+    .management-page .management-package:hover,
+    .management-page .management-back-link:hover {
+        transform: none;
+    }
+}
