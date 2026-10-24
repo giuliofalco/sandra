@@ -169,8 +169,11 @@ img {
     max-height: 580px;
     object-fit: cover;
     object-position: center;
-    margin-top: -350px;
     margin-bottom: 20px;
+}
+
+#prima-immagine {
+     margin-top: -350px;
 }
 
 /* Contenuto principale */

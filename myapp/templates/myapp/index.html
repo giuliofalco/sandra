@@ -37,10 +37,14 @@
                 <p class="intro-text">{{ intro_text_5 }}</p>
                 
             </div>
-        <img src="{% static 'images/header.jpg' %}"
-             alt="{{ header_image_alt }}"
-             class="header-image">
-        <div class="header-content">
+
+            <img src="{% static 'images/header.jpg' %}"
+                alt="{{ header_image_alt }}"
+                class="header-image"
+                id="prima-immagine"
+            >
+        
+             <div class="header-content">
             <nav class="main-navigation" aria-label="Navigazione principale">
                 <ul>
                     <li><a href="#presentazione">{{ nav_presentazione }}</a></li>
@@ -129,6 +133,10 @@
                 </div>
             </div>
         </section>
+
+        <img src="{% static 'images/sandra-piscina.jpg' %}"
+             alt="{{ header_image_alt }}"
+             class="header-image">
 
         <section id="contatti" class="content-section contact-section">
             <h2>{{ section_contatti }}</h2>
