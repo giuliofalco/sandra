@@ -1,50 +1,29 @@
 <!DOCTYPE html>
+
 <html lang="{{ lang }}">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>{{ title }}</title>
+
     {% load static %}
+
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
     <script src="{% static 'js/scripts.js' %}"></script>
+
 </head>
+
 <body>
+
     <header class="site-header">
-        <div class="language-selector" aria-label="Seleziona la lingua">
-            <a href="?lang=it" lang="it"
-               class="{% if lang == 'it' %}active{% endif %}"
-               aria-label="Italiano"
-               {% if lang == 'it' %}aria-current="page"{% endif %}>🇮🇹</a>
-            <a href="?lang=de" lang="de"
-               class="{% if lang == 'de' %}active{% endif %}"
-               aria-label="Deutsch"
-               {% if lang == 'de' %}aria-current="page"{% endif %}>🇩🇪</a>
-            <a href="?lang=en" lang="en"
-               class="{% if lang == 'en' %}active{% endif %}"
-               aria-label="English"
-               {% if lang == 'en' %}aria-current="page"{% endif %}>🇬🇧</a>
-        </div>
-        <h1>{{ header_title }}</h1> 
-                  
+        <div class="topbar">
+            <a class="brand-name" href="#inizio">Sandra Schneider</a>
 
-            <div class="intro-box">
-                <h2 class="intro-title">{{ intro_title }}</h2>
-               
-                <p class="intro-text">{{ intro_text_1 }}</p>
-                <p class="intro-text">{{ intro_text_2 }}</p>
-                <p class="intro-text">{{ intro_text_3 }}</p>
-                <p class="intro-text">{{ intro_text_4 }}</p>
-                <p class="intro-text">{{ intro_text_5 }}</p>
-                
-            </div>
-
-            <img src="{% static 'images/header.jpg' %}"
-                alt="{{ header_image_alt }}"
-                class="header-image"
-                id="prima-immagine"
-            >
-        
-             <div class="header-content">
             <nav class="main-navigation" aria-label="Navigazione principale">
                 <ul>
                     <li><a href="#presentazione">{{ nav_presentazione }}</a></li>
@@ -54,131 +33,358 @@
                     <li><a href="#contatti">{{ nav_contatti }}</a></li>
                 </ul>
             </nav>
+
+            <div class="language-selector" aria-label="Seleziona la lingua">
+                <a href="?lang=it" lang="it"
+                   class="{% if lang == 'it' %}active{% endif %}"
+                   aria-label="Italiano"
+                   {% if lang == 'it' %}aria-current="page"{% endif %}>🇮🇹</a>
+                <a href="?lang=de" lang="de"
+                   class="{% if lang == 'de' %}active{% endif %}"
+                   aria-label="Deutsch"
+                   {% if lang == 'de' %}aria-current="page"{% endif %}>🇩🇪</a>
+                <a href="?lang=en" lang="en"
+                   class="{% if lang == 'en' %}active{% endif %}"
+                   aria-label="English"
+                   {% if lang == 'en' %}aria-current="page"{% endif %}>🇬🇧</a>
+            </div>
         </div>
 
-        
+        <div class="hero-layout" id="inizio">
+            <div class="hero-copy">
+                <p class="hero-eyebrow">COMO LAKE · ITALY</p>
+                <h1>{{ header_title }}</h1>
+                <h2 class="intro-title">{{ intro_title }}</h2>
+                <div class="hero-description">
+                    <p>{{ intro_text_1 }}</p>
+                    <p>{{ intro_text_2 }}</p>
+                    <p>{{ intro_text_5 }}</p>
+                </div>
+                <div class="hero-services">{{ intro_text_3 }}</div>
+            </div>
+
+            <div class="hero-image-wrap">
+                <img src="{% static 'images/header.jpg' %}"
+                     alt="{{ header_image_alt }}"
+                     class="hero-image">
+                <span class="hero-image-caption">Lago di Como</span>
+            </div>
+        </div>
     </header>
 
+
     <main class="site-main">
+
         <section id="presentazione" class="presentation-section">
+
           <h2>{{ section_presentazione }}</h2>
 
+
           <div class="presentation-content">
+
             <img src="{% static 'images/sandra.png' %}"
+
              alt="{{ profile_image_alt }}"
+
              class="profile-image">
 
+
             <div class="presentation-text">
+
               <p>{{ section_presentazione_text_1 }}</p>
+
               <p>{{ section_presentazione_text_2 }}</p>
+
               <p>{{ section_presentazione_text_3 }}</p>
+
               <p>{{ section_presentazione_text_4 }}</p>
+
               <p>{{ section_presentazione_text_5 }}</p>
+
             </div>
+
           </div>
+
         </section>
+
 
         <section id="consulenza" class="content-section">
+
             <h2>{{ section_consulenza }}</h2>
+
             <div class="service-content">
+
                 <img src="{% static 'images/casa-vacanze.jpg' %}"
+
                      alt="{{ property_image_alt }}"
+
                      class="property-image">
+
                 <div class="service-text">
+
                     <p>{{ section_consulenza_text_1 }}</p>
+
                     <p>{{ section_consulenza_text_2 }}</p>
+
                 </div>
+
             </div>
+
             <br>
+
             <div class="section-more">
+
                    <a href="{% url 'consulenza' %}?lang={{ lang }}" class="management-back-link">
+
                   {{ consulting_button }}
+
                   </a>
+
                 </div>
+
         </section>
+
 
         <section id="gestione" class="content-section">
+
             <h2>{{ section_gestione }}</h2>
+
             <div class="service-content">
+
                 <img src="{% static 'images/interni.jpg' %}"
+
                      alt="{{ property_image_alt }}"
+
                      class="property-image">
+
                 <ul class="service-list">
+
                     <li>{{ section_gestione_list_1 }}</li>
+
                     <li>{{ section_gestione_list_2 }}</li>
+
                     <li>{{ section_gestione_list_3 }}</li>
+
                     <li>{{ section_gestione_list_4 }}</li>
+
                     <li>{{ section_gestione_list_5 }}</li>
+
                     <li>{{ section_gestione_list_6 }}</li>
+
                 </ul>
 
+
                 <div class="section-more">
+
                    <a href="{% url 'gestione' %}?lang={{ lang }}" class="management-back-link">
+
                   {{ management_button }}
+
                   </a>
+
                 </div>
 
+
             </div>
+
         </section>
+
 
         <section id="consulenza-proprietari" class="content-section">
+
             <h2>{{ section_consulenza_proprietari }}</h2>
+
             <div class="service-content">
+
                 <img src="{% static 'images/sandra-6.jpg' %}"
+
                      alt="{{ profile_image_alt }}"
+
                      class="profile-image">
+
                 <div class="service-text">
+
                     <p>{{ section_consulenza_proprietari_text_1 }}</p>
+
                     <p>{{ section_consulenza_proprietari_text_2 }}</p>
+
                 </div>
+
             </div>
+
         </section>
+
 
         <img src="{% static 'images/sandra-piscina.jpg' %}"
+
              alt="{{ header_image_alt }}"
+
              class="header-image">
 
-        <section id="contatti" class="content-section contact-section">
-            <h2>{{ section_contatti }}</h2>
-            <p>Email: <a href="mailto:info@sandraschneider.it">{{ email }}</a></p>
-            <p>Telefono: <a href="#">{{ phone }}</a></p>
-            <p>Informazioni legali: <a href="#privacy-modal" id="privacy-link">{{ legal_info }}</a></p>
-        </section>
+
+<section id="contatti" class="content-section contact-section">
+
+    <h2>Parliamone</h2>
+
+
+        <div class="contacts-row">
+
+            <div class="contacts-social">
+
+               Seguici: <a href="https://www\.facebook.com/profile.php?id=832939550" target="_blank"
+
+               rel="noopener noreferrer" aria-label="Facebook">
+
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+
+                    <path fill="currentColor"
+
+                          d="M13.5 21v-8h2.7l.4-3.1h-3.1v-2
+
+                             c0-.9.3-1.5 1.6-1.5h1.7V3.6
+
+                             C16.2 3.4 15.3 3.3 14.3 3.3
+
+                             c-2.8 0-4.7 1.7-4.7 4.8v1.8H7v3.1
+
+                             h2.6v8z"/>
+
+                </svg>
+
+            </a>
+
+            <a href="URL_INSTAGRAM" target="_blank"
+
+               rel="noopener noreferrer" aria-label="Instagram">
+
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+
+                    <rect x="3" y="3" width="18" height="18" rx="5"
+
+                          fill="none" stroke="currentColor" stroke-width="2"/>
+
+                    <circle cx="12" cy="12" r="4" fill="none"
+
+                            stroke="currentColor" stroke-width="2"/>
+
+                    <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/>
+
+                </svg>
+
+            </a>
+
+        </div>
+
+
+        <div class="contacts-details">
+
+            <p>
+
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+
+                    <rect x="3" y="5" width="18" height="14" rx="2"
+
+                          fill="none" stroke="currentColor" stroke-width="1.8"/>
+
+                    <path d="m4 7 8 6 8-6" fill="none"
+
+                          stroke="currentColor" stroke-width="1.8"/>
+
+                </svg>
+
+                <a href="mailto:info@sandraschneider.it">{{ email }}</a>
+
+            </p>
+
+
+            <p>
+
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+
+                    <path d="M7 3H4a1 1 0 0 0-1 1
+
+                             c0 9.4 7.6 17 17 17a1 1 0 0 0 1-1v-3
+
+                             l-5-2-2 3a14 14 0 0 1-7-7l3-2z"
+
+                          fill="none" stroke="currentColor"
+
+                          stroke-width="1.8" stroke-linejoin="round"/>
+
+                </svg>
+
+                <a href="#">{{ phone }}</a>
+
+            </p>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+   <p class="legal-link">
+
+                <a href="#privacy-modal" id="privacy-link">{{ legal_info }}</a>
+
+            </p>
+
     </main>
 
-</a>
-
-</body>
-
-
 <div id="privacy-modal"
+
      class="privacy-modal"
+
      role="dialog"
+
      aria-modal="true"
+
      aria-labelledby="privacy-title"
+
      aria-hidden="true">
 
+
     <div class="privacy-modal-content">
+
         <button type="button"
+
                 class="privacy-close"
+
                 id="privacy-close"
+
                 aria-label="Chiudi la finestra">
+
             &times;
+
         </button>
+
 
         <h2 id="privacy-title">{{ privacy_title }}</h2>
 
+
        <p>{{ privacy_text_1 }}</p>
+
        <p>{{ privacy_text_2 }}</p>
+
        <p>{{ privacy_text_3 }}</p>
+
        <p>{{ privacy_text_4 }}</p>
 
+
         <button type="button"
+
                 class="privacy-close-button"
+
                 id="privacy-close-button">
+
             Chiudi
+
         </button>
+
     </div>
+
 </div>
 
+</body>
 </html>
